@@ -26,7 +26,7 @@ public class Vehicle {
     }
 
     void printDistanceRange() {
-        System.out.println("Distance range: " + getDistanceRange() + "km");
+        System.out.printf("Distance range: %.2f km\n", getDistanceRange());
     }
 
     double getDistanceRange() {
