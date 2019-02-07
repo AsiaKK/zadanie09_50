@@ -24,7 +24,7 @@ public class Car extends Vehicle {
     @Override
     double getDistanceRange() {
         double averageFuelConsumption = calculateFuelConsumption();
-        double range = this.getTankCapacity() / averageFuelConsumption;
+        double range = (this.getTankCapacity() / averageFuelConsumption)*100;
         return range;
     }
 
